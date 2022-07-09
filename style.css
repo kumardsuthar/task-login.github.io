@@ -72,10 +72,12 @@ a{
 .icon{
     padding: 10px;
             min-width: 40px;
+    color:gba(38, 127, 255, 1);
 }
 .icon2{
     padding: 10px;
             min-width: 40px;
+     color:gba(38, 127, 255, 1);
 }
 
 

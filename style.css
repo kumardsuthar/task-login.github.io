@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:  rgba(255, 255, 255, 1);
+    background-color:  rgba(242, 246, 255, 1);
+}
+
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgba(255, 255, 255, 1);
+    width: 400px;
+    height:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: .5px solid rgba(6, 6, 6, 0.464);
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.463);
+}
+.login-page h1{
+    margin: 40px auto 10px auto;
+    color: rgba(49, 80, 125, 1);
+    font-family: 'Mingzat', sans-serif;
+}
+.login-page h3{
+    margin: 15px auto 15px auto;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(49, 80, 125, 0.46);
+    font-family: 'Barlow', sans-serif;
+   
+}
+.input-user{
+        margin: 10px auto 15px auto;
+}
+.input-user input{
+    border-radius: 5px;
+    
+    padding: 7px 100px 7px 100px;
+ 
+    border: 2px solid rgba(49, 80, 125, 0.46);
+}
+.inp{
+    text-align: left;
+    
+    
+}
+
+ .button button{
+    border-radius: 5px;
+    padding: 7px 160px 7px 160px;
+    border: 2px solid rgba(49, 80, 125, 0.46);
+    background-color: rgba(38, 127, 255, 1);
+    color: white;
+    margin-top: 10px;
+}
+a{
+    color: rgba(38, 127, 255, 1);
+    font-weight: bold;
+}
+.input-user i{
+    position: absolute;
+}
+.icon{
+    padding: 10px;
+            min-width: 40px;
+            color:rgba(38, 127, 255, 1) ;
+}
+.icon2{
+    padding: 10px;
+            min-width: 40px;
+            color:rgba(38, 127, 255, 1) ;
+}
+
+
+@media (max-width:420px){
+    .login-page{
+        width: 300px;
+    }
+    .login-page h1{
+        font-size: 24px;
+    }
+    .login-page h3{
+        text-align: center;
+        font-size: 13px;
+    }
+     .inp{
+        text-align: center;
+        size:10;
+        padding-left: 10px;
+    }
+    .input-user input{
+        padding: 6px 50px 6px 50px;
+    }
+    .button button{
+        padding: 7px 110px 7px 110px;
+    }
+    .input-user i{
+        position: absolute;
+    }
+    .icon{
+        padding: 10px;
+        min-width: 40px;
+    }
+    .icon2{
+        padding: 10px;
+        min-width: 40px;        
+    }
+}
